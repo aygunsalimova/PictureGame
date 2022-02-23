@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    left: 250px;
+    top: 20px;
+    position: absolute;
+}
+
+table,
+td {
+    border: 1px solid green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    width: 150px;
+}
+
+tr {
+    height: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: none;
+    cursor: pointer;
+}
+
+.active {
+    display: block !important;
+}
